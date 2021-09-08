@@ -1,0 +1,10 @@
+#real-alert {
+    color: red;
+    font-size: 200%;
+    font-weight:900;
+}
+
+#test-only {
+    color: blue;
+    display: block;
+}
