@@ -5,26 +5,48 @@
         <title>Hello Forms</title>
     </head>
     <body>
-        <P>Enter your name:</P>
+
+        <form>
+        <label for="user-name" required>Enter your name:</label>
 
         <!-- The simplest input possible. -->
-        <input type="email">
+        <input  id="user-name" type="text">
+
+        <input type="number" value="100">
 
         <textarea rows="15" cols="50">Default text here</textarea>
 
+        <!-- Creates a drop down menu -->
+
+        <br>
+        <label>How many?</label>
         <select>
             <option>One</option>
             <option>Two</option>
             <option>Three</option>
         </select>
 
-        <p>Delivery or pickup</p>
-        <input name="delivery-method" type="radio">Yes
-        <input name="delivery-method" type="radio">No
+        <br>
 
-        <p>Today or Later</p>
-        <input name="delivery-method" type="radio">Yes
-        <input name="delivery-method" type="radio">No
+        <label>Delivery or pickup</label>
+        <input id="delivery-method" type="radio" checked>Delivery
+        <input id="delivery-method" type="radio">Pickup
+
+        <br>
+
+        <label>Today or Later</label>
+        <input id="delivery-now" name="delivery-time" type="radio">
+        <label for="delivery-now">Now</label>
+        <input id="delivery-later" name="delivery-time" type="radio">
+        <label for="delivery-later">Later</label>
+        
+        <br>
+
+        <input type="checkbox" checked>
+
+        <input type="submit">
+
+        </form>
 
     </body>
 </html>

@@ -1,0 +1,10 @@
+.jumbotron {
+    background-color: teal;
+    color: ivory;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(168, 245, 245);
+}
