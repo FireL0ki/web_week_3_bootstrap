@@ -1,0 +1,11 @@
+.jumbotron {
+    font-family: 'Oswald', sans-serif;
+    background-color: navy;
+    color: ivory;
+    text-align: center;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(178, 186, 194);
+}
