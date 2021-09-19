@@ -1,0 +1,9 @@
+.jumbotron {
+    background-color: #262829;
+    color: #992366;
+}
+
+body {
+    background-image: linear-gradient(#8e7296, #b863c5);
+    /* background-color: rgb(213, 188, 223); */
+}
